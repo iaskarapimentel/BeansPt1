@@ -29,7 +29,7 @@ class BeansPt1ApplicationTests {
   }
 
   @Test
-  void appContextNotNull(ApplicationContext applicationContext) {
+  void appContextNotNull() {
     Assertions.assertNotNull(myBean);
   }
 
